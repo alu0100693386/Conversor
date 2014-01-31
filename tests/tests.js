@@ -1,8 +1,12 @@
-var assert = chai.assert;
+//Autor: Cristian Luis Hdez
+//Proyecto: Practica 0: PL
 
-suite( 'temperatura', function(){
+
+var assert = chai.assert; //la variable assert contiene los asertos que se pueden realizar
+
+suite( 'temperatura', function(){  //Suite equivale al describle en RAKE
   
-  test('32F=0C', function(){
+  test('32F=0C', function(){  //test equivale a it en RAKE
     entrada.value="32F";
     calculate();
     assert.deepEqual(salida.innerHTML, "0.0C");

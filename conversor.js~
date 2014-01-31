@@ -1,6 +1,3 @@
-//Autor: Cristian Luis Hdez
-//Proyecto: Practica 0: PL
-
 "use strict"; // Comprobar el codigo de forma mas estricta.
 function calculate() {
   var result;

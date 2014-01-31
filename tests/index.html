@@ -8,13 +8,16 @@
   </head>
   <body>
     <div id="mocha"></div>
+    <!-- Incluimos este script para poder ejecutar la funcion calculate a parte de para los tests-->
+    <script src="../conversor.js"></script>
     
-    <input id="entrada" placeholder="32F" size="50">
+    <!--Hemos incluido la opcion onchange=calculate para poder ejecutar el programa de conversión de temperaturas incluso en la pagina de pruebas-->
+    <input id="entrada" placeholder="32F" size="50" onchange="calculate();">
     <span class="output" id="salida"></span>
     
     <script src="chai.js"></script>
     <script src="mocha.js"></script>
-    <script src="../conversor.js"></script>
+    
     <script>mocha.setup('tdd')</script>
     <script src="tests.js"></script>
     <script>

@@ -20,5 +20,6 @@
 	<td><span class="output" id="salida"></span></td>
       </tr>
     </table>
+    <a href="tests/index.html">Pruebas</a>
   </body>
 </html>

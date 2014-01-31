@@ -1,0 +1,5 @@
+titulo { font-size: 150%; font-weight: bold; font-family: "Trebuchet MS",Helvetica; text-align: center; }
+th, td 	{font-family: "Trebuchet MS",Helvetica; color: black; vertical-align: middle; text-align: right; font-size: large;}
+#salida { color: blue ;  font-weight: bold; font-size: large;}
+input	{ text-align: right; border: double; font-size: large; }
+body {background-color: #F3F781; /* Amarillo */ font-size: large;}
